@@ -1,0 +1,67 @@
+@media only screen and (max-width: 46.1875em) {
+  #nav {
+    width: 100%;
+    flex-direction: column;
+    background: black;
+  }
+  .nav-mobile {
+    flex-direction: column;
+    background-color: black;
+  }
+  .home {
+    width: 90px;
+  }
+  /* #nav li + li {
+    display: none;
+  } */
+  .search-btn {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .text-content {
+    display: none;
+  }
+  .content-section {
+    padding: 0 16px;
+  }
+  #content .content-section {
+    padding-top: 65px;
+  }
+  .content-section .members-list {
+    display: block;
+  }
+  .member-item {
+    width: 100%;
+  }
+  .member-item .member-img {
+    width: 60%;
+  }
+
+  .place-list {
+    display: block;
+  }
+  .place-section {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .contact {
+    display: block;
+  }
+  input.name {
+    width: 100%;
+    margin: 8px 0;
+  }
+  input.Email {
+    width: 100%;
+  }
+  .members-list {
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav-mobile {
+    display: flex;
+  }
+}
