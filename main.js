@@ -1,10 +1,4 @@
 let menu = document.querySelector(".menu");
-let navmobile = document.querySelector(".nav-mobile");
-
-menu.addEventListener("click", () => {
-  navmobile.classList.toggle("active");
-});
-let menu = document.querySelector(".menu");
 let modal = document.querySelector(".modal");
 let modelclose = document.querySelector(".model-close");
 let btnticket = document.querySelectorAll(".btn-ticket");
